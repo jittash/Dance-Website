@@ -1,0 +1,59 @@
+doctype html
+html
+    head
+        title Jittash Dance Academy
+        style 
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src='../static/logo.png')
+                    |JDA
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Services]
+                li #[a(href='/') Class info]
+                li #[a(href='/') Contact us] 
+
+        section#introSection
+            div Welcome to Jittash's Dance Academy
+            div.small Eat Sleep Dance Repeat
+        section#missionSection
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src='../static/img1.png')
+                    div.card-content
+                        p Lorem ipsum dolor sit amet.
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src='../static/logo.png')
+                    div.card-content
+                        p Lorem ipsum dolor sit amet.
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src='../static/img3.png')
+                    div.card-content
+                        p Lorem ipsum dolor sit amet.
+        section#sponsorSection
+            h2 Our sponsors
+            div#sponsors
+                img(src='../static/87390.png',class='spimages')
+                img(src='../static/logo21.png',class='spimages')
+                img(src='../static/logo3.png',class='spimages')
+                img(src='../static/uber_PNG24.png',class='spimages')
+        footer#footer
+            |Copyright 2020 &copy jittashdanceacademy.com | All rights reserved
+        script 
+            include ../static/index.
+            
+
+
+            

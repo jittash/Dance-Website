@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color:#d43b3b;
+    padding: 13px 14px;
+    font-family: 'Lacquer';
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#logo{
+    display: flex ;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+        height: 30px;
+        filter:invert(1);
+}
+
+#introSection{
+    height: 500px;
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url('/static/dance.jpg.jpg');
+    background-color: yellow;
+    height: 300px;
+    font-size: 35px;
+}
+
+.small{
+    font-size: 27px;
+}
+
+#missionSection{
+    width: 67%;
+    margin: auto;
+    height: 300px;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 22px;
+    height: 210px;
+}
+
+.card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding:0 14px;
+    margin: 15px 0px;
+}
+
+.card-img img{
+    height: inherit;
+    padding:0 14px;
+}
+.card-content{
+    padding:0 10px;
+}
+
+/*.card-content p{
+    font-size: 20px;
+}*/
+
+#sponsorSection{
+    background-color: #fbd6d6c7;
+    height: 300px;
+}
+
+#sponsorSection h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.spimages{
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsors{
+    height: 175px;
+    max-width: 750px;
+    margin: 27px auto;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    font-size: 15px;
+}
